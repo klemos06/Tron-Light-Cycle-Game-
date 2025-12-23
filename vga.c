@@ -167,6 +167,56 @@ void robotDecide(Player *bot) {
     else if (!detectObstacleAhead(yr,xr)) // if right is clear, turn right
         bot->dir=R;
 }
+// Optional speed modification option using switches. 
+/*
+int speedMod(void) {
+    uint32_t sw = *pSWITCH; // read switch values
+    int speedSetting = sw & 0x3FF; 
+    int newSpeed;
+
+    switch (speedSetting) {
+        case 0:
+            newSpeed = 1000000; 
+            break;
+        case 1: 
+            newSpeed = 500000; 
+            break; 
+        case 2: 
+            newSpeed = 250000; 
+                break;
+        case 4: 
+            newSpeed = 150000; 
+                break;
+        case 8: 
+            newSpeed = 75000;  
+                break;
+        case 16: 
+            newSpeed = 50000;  
+                break;
+        case 32: 
+            newSpeed = 25000;  
+                break;
+        case 64: 
+            newSpeed = 10000;  
+                break;
+        case 128: 
+            newSpeed = 5000;   
+                break; 
+        case 256: 
+            newSpeed = 2500;   
+                break;
+        case 512: 
+            newSpeed = 1250;   
+                break;  
+        default: 
+            newSpeed = SPEED; 
+                break;
+    }
+
+    return newSpeed;
+}
+*/
+
  // if neither, keep going straight
 
  // main
@@ -258,3 +308,4 @@ int main() {
     printf("Game over. Final scores: Human=%d Robot=%d\n",scoreH,scoreR);
     return 0;
 }
+
