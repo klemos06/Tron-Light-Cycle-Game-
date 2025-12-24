@@ -34,13 +34,17 @@ The project focuses on interfacing a DE-10 Lite FPGA to function as user inputs 
 
 # Demo
 
-(Replace with real images or GIFs)
+**Starting Position**
 
-Gameplay Screenshot
+<img width="800" height="600" alt="gameplay_resized" src="https://github.com/user-attachments/assets/2abd519d-de8e-46c1-a66a-e74847e85c7c" />
 
-Game Over Screen
+**Game Over Screen**
 
-Start Menu
+<img width="800" height="600" alt="gameover_resized" src="https://github.com/user-attachments/assets/ead59a1e-e7a9-434c-9ba8-7702fea79a84" />
+
+**DE-10 Lite Score Display**
+
+<img width="800" height="1066" alt="de10lite_resized" src="https://github.com/user-attachments/assets/5f0ae740-b0de-470e-aebe-0b44598e38d3" />
 
 # Tech Stack
 
