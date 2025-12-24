@@ -87,9 +87,11 @@ Overall, this project helped bridge the gap between my understanding of FPGAs as
 
 **You will need the NIOS V Command Shell (Quartus Prime 24.1std) dowloaded prior to the following steps**
 
+Clone repository:
+
 git clone https://github.com/your-username/tron-light-cycle.git
+
 cd tron-light-cycle
-open index.html
 
 Open **NIOS V Command Shell** and type the following when you are situated in the correct repository e.g C:\Users\Bob\Downloads\cloned-repository-location:
 
